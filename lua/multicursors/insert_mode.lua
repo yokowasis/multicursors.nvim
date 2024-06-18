@@ -244,7 +244,7 @@ end
 M.exit = function()
     api.nvim_clear_autocmds { group = M._au_group }
     vim.api.nvim_feedkeys(
-        vim.api.nvim_replace_termcodes('<c-i>', true, false, true),
+        vim.api.nvim_replace_termcodes('<esc>', true, false, true),
         'n',
         true
     )

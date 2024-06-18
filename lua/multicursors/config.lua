@@ -109,8 +109,6 @@ local insert_keys = {
     ['<C-Right>'] = { method = I.C_Right, opts = { desc = 'word forward' } },
     ['<C-Left>'] = { method = I.C_Left, opts = { desc = 'word backward' } },
 
-    ['<C-i>'] = { method = nil, opts = { desc = 'exit' } },
-
     ['<End>'] = {
         method = I.End_method,
         opts = { desc = 'move to end of line' },
