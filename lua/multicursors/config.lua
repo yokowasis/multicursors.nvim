@@ -112,6 +112,7 @@ local insert_keys = {
     ['<Esc>'] = { method = nil, opts = { desc = 'exit' } },
     ['<c-t>'] = { method = nil, opts = { desc = 'exit' } },
     ['<C-i>'] = { method = nil, opts = { desc = 'exit' } },
+    ['<leader>x'] = { method = nil, opts = { desc = 'exit' } },
 
     ['<End>'] = {
         method = I.End_method,
