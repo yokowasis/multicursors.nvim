@@ -146,6 +146,12 @@ L.generate_normal_heads = function(config)
     }
 
     heads[#heads + 1] = {
+        '<c-e>',
+        nil,
+        { desc = 'exit', exit = true, nowait = config.nowait },
+    }
+
+    heads[#heads + 1] = {
         config.mode_keys.insert,
         function()
             enter_insert(function()
