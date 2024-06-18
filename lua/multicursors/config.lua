@@ -109,7 +109,7 @@ local insert_keys = {
     ['<C-Right>'] = { method = I.C_Right, opts = { desc = 'word forward' } },
     ['<C-Left>'] = { method = I.C_Left, opts = { desc = 'word backward' } },
 
-    -- ['<Esc>'] = { method = nil, opts = { desc = 'exit' } },
+    ['<Esc>'] = { method = nil, opts = { desc = 'exit' } },
     ['<c-e>'] = { method = nil, opts = { desc = 'exit' } },
     ['<C-c>'] = { method = nil, opts = { desc = 'exit' } },
 
