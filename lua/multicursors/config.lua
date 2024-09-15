@@ -140,7 +140,9 @@ local M = {
     extend_keys = extend_keys,
     -- see :help hydra-config.hint
     hint_config = {
-        border = 'none',
+        float_opts = {
+            border = 'none',
+        },
         position = 'bottom',
     },
     -- accepted values:
